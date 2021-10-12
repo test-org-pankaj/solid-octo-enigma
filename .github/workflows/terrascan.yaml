@@ -20,4 +20,4 @@ jobs:
           policy_type: "aws"
           only_warn: true
           verbose: false
-          # config_path: .github/workflows/terrascan/config.yaml
+          config_path: .github/workflows/terrascan/config.yaml
