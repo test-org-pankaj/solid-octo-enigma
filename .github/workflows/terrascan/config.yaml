@@ -1,6 +1,0 @@
-notifications:
-  webhook:
-    type: webhook
-    config:
-      url: https://19ae-103-83-214-125.ngrok.io/v1/api/terrascan
-      token: 78177267-9164-449e-9395-875685a746ec
