@@ -14,6 +14,6 @@ jobs:
         with:
           only_warn: true
           verbose: true
-          notification_webhook_url: https://7956-103-83-214-125.ngrok.io/v1/api/terrascan
-          notification_webhook_token: e6526877-6ae2-4e57-bc8e-a4816eff4840
+          notification_webhook_url: https://288a-103-83-214-125.ngrok.io/v1/api/terrascan
+          notification_webhook_token: af42b8e7-d6b8-47f3-8ab6-e8f68704744d
           repo_url: https://github.com/test-org-pankaj/solid-octo-enigma.git
