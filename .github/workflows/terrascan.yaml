@@ -1,0 +1,19 @@
+on:
+  push:
+  workflow_dispatch:
+jobs:
+  terrascan_job:
+    runs-on: ubuntu-latest
+    name: terrascan-action
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Run Terrascan
+        id: terrascan
+        uses: docker://nasirrabbani/terrascan-action:test3
+        with:
+          only_warn: true
+          verbose: true
+          notification_webhook_url: https://4a09-106-78-166-176.ngrok.io/v1/api/terrascan
+          notification_webhook_token: fcf16325-e2a0-46c2-801c-d35c40d745d9
+          repo_url: https://github.com/test-org-pankaj/solid-octo-enigma.git
